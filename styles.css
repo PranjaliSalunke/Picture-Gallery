@@ -1,0 +1,49 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .picture {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .picture img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .picture .details {
+    margin-top: 5px;
+  }
+  
+  .picture .details a {
+    text-decoration: none;
+    color: #333;
+  }
+  
